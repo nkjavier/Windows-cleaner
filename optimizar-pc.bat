@@ -1,7 +1,7 @@
 @echo off
 cls
-if not exist c:\usuario\opt.log echo Creado el %date% %time% >c:\usuario\opt.log
-echo Se ejecuta Optimiza en %COMPUTERNAME% por el usuario %Username% a las %date% %time% >>c:\usuario\opt.log
+if not exist c:\opt.log echo Creado el %date% %time% >c:\opt.log
+echo Se ejecuta Optimiza en %COMPUTERNAME% por el usuario %Username% a las %date% %time% >>c:\opt.log
 echo Usuario: 
 echo %Username%
 echo ------------
@@ -27,11 +27,6 @@ ipconfig/flushdns
 ipconfig /registerdns
 rem You may need to redirect both stdout and stderr:
 rem timeout 2  >NUL  2>NUL
-rem Note that the special device is NUL or NUL:, with a single L.
-rem shareimprove this answer
-rem answered Apr 30 '12 at 18:16
-rem grawity
-rem 254k3838 gold badges535535 silver badges599599 bronze badges
 rem 2
 rem you can also redirect stderr to stdout: timeout > nul 2>&1 – jftuga Apr 30 '12 at 20:05
 cls
@@ -203,5 +198,4 @@ echo ########################################
 echo.
 echo.
 pause
-start iexplore http://intra.ar.bsch/
 exit
