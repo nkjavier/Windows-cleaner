@@ -174,6 +174,15 @@ echo.
 echo Trabajando en su pc, aguarde por favor..
 echo.
 echo. 
+echo 97%% [*************************** ] Completado
+echo.
+echo.
+start /MIN wsreset.exe
+cls
+echo.
+echo Trabajando en su pc, aguarde por favor..
+echo.
+echo. 
 echo 99%% [*************************** ] Completado
 echo.
 echo.
